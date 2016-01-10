@@ -1,0 +1,35 @@
+{
+  "name": "rima",
+  "version": "0.0.1",
+  "description": "Find rhyming words in galician language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bertez/rima.git"
+  },
+  "keywords": [
+    "rhyme",
+    "words",
+    "natural",
+    "galician",
+    "galego",
+    "rima"
+  ],
+  "author": "Berto Yáñez <berto@ber.to>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bertez/rima/issues"
+  },
+  "homepage": "https://github.com/bertez/rima#readme",
+  "dependencies": {
+    "gl-syllabler": "^1.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-mocha": "^2.2.0"
+  }
+}
