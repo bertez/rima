@@ -25,9 +25,11 @@
   },
   "homepage": "https://github.com/bertez/rima#readme",
   "dependencies": {
-    "gl-syllabler": "^1.0.1"
+    "gl-syllabler": "^1.1.2",
+    "lodash": "^3.10.1"
   },
   "devDependencies": {
+    "debug": "^2.2.0",
     "gulp": "^3.9.0",
     "gulp-eslint": "^1.1.1",
     "gulp-mocha": "^2.2.0"
