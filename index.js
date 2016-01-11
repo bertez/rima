@@ -6,8 +6,6 @@ const _ = require('lodash');
 let lex;
 
 debug('Init');
-// const lex = require('./lex/lex.json');
-//
 
 const getVowels = (syllables) => {
     if(!Array.isArray(syllables)) {
@@ -63,11 +61,6 @@ const getRhymes = (word) => {
         assonant: getAssonantRhymes(word)
     };
 }
-
-console.log(getConsonantRhymes('galicia'));
-// debug('done1');
-// console.log(getAssonantRhymes('nádegas').slice(0, 10));
-debug('End');
 
 module.exports = {
     isRhymeConsontant,
