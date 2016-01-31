@@ -19,13 +19,13 @@ rima.getConsonantRhymes('palabra'); // ['abra', 'abracadabra', 'cabra', 'labra',
 
 Method | Description |
 ---------|---------------|
-`setLex(*lex*)` | Defines an optional *lex* of words. The lex must be an array of words.
-`isRhymeConsontant(*word1, word2*)` | Returns true if *word1* and *word2* have consonant rhyme.
-`isRhymeAssonant(*word1, word2*)` | Returns true if *word1* and *word2* have assonant rhyme.
-`isRhyme(*word1, word2*)` | Returns true if *word1* and *word2* have assonant or consonant rhyme.
-`getConsonantRhymes(*word*)` | Returns an array of words that have consonant rhyme with *word*.
-`getAssonantRhymes(*word*)` | Returns an array of words that have assonant rhyme with *word*.
-`getRhymes(*word*)` | Returns an object with the consonant and assonant array of words that have rhyme with *word*.
+`setLex(lex)` | Defines an optional *lex* of words. The lex must be an array of words.
+`isRhymeConsontant(word1, word2)` | Returns true if *word1* and *word2* have consonant rhyme.
+`isRhymeAssonant(word1, word2)` | Returns true if *word1* and *word2* have assonant rhyme.
+`isRhyme(word1, word2)` | Returns true if *word1* and *word2* have assonant or consonant rhyme.
+`getConsonantRhymes(word)` | Returns an array of words that have consonant rhyme with *word*.
+`getAssonantRhymes(word)` | Returns an array of words that have assonant rhyme with *word*.
+`getRhymes(word)` | Returns an object with the consonant and assonant array of words that have rhyme with *word*.
 
 # License
 
