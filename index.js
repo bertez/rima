@@ -36,21 +36,22 @@ const isRhyme = (w1, w2) => {
 }
 
 const getConsonantRhymes = (word) => {
-    if(!lex) {
-        lex = require('./lex/words.json');
-    }
-
     const sw = syl(word);
+
+    if(!lex) {
+        setLex();
+    }
 
     return _.unique(lex.filter(w => isRhymeConsontant(sw, w) && w !== sw.word));
 };
 
 const getAssonantRhymes = (word) => {
+    const sw = syl(word);
+
     if(!lex) {
-        lex = require('./lex/words.json');
+        setLex();
     }
 
-    const sw = syl(word);
 
     return _.unique(lex.filter(w => isRhymeAssonant(sw, w) && w !== sw.word));
 };
@@ -62,7 +63,12 @@ const getRhymes = (word) => {
     };
 }
 
+const setLex = (l) => {
+    lex = l || require('./lex/words.json');
+}
+
 module.exports = {
+    setLex,
     isRhymeConsontant,
     isRhymeAssonant,
     isRhyme,
