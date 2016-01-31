@@ -1,6 +1,6 @@
 {
   "name": "rima",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Find rhyming words in galician language.",
   "main": "index.js",
   "scripts": {
