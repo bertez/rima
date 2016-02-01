@@ -1,11 +1,9 @@
 'use strict';
 
-const debug = require('debug')('rima');
 const syl = require('gl-syllabler');
 const _ = require('lodash');
 let lex;
 
-debug('Init');
 
 const getVowels = (syllables) => {
     if(!Array.isArray(syllables)) {
